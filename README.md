@@ -10,6 +10,7 @@ The lesson is: https://stepik.org/lesson/237240/step/10?unit=209628
 ## Pycharm project configuration
 After cloning the project from git perform steps:
 - add 3.11 Python interperter with virtual environment.
+
 Open terminal and install libraries:
 	
 - pip install selenium
