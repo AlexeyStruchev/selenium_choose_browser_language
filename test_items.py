@@ -13,5 +13,5 @@ def test_add_to_basket_button_exists(browser):
     """
     browser.get(link)
     button_selector = "btn-add-to-basket"
-    elements_list = browser.find_elements(By.CLASS_NAME, "btn-add-to-basket")
-    assert elements_list, f'The item with selector "{button_selector}" is not found'
+    list_with_basket_button = browser.find_elements(By.CLASS_NAME, "btn-add-to-basket")
+    assert list_with_basket_button, f'The item with selector "{button_selector}" is not found'
